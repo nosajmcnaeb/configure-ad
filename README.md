@@ -41,27 +41,27 @@ Set Domain Controller’s NIC Private IP address to be static
 <p>
 Create the Client VM (Windows 10) named “Client-1”. Use the same Resource Group and Vnet that was created in Step 1.a
 <p>
-<img src="https://imgur.com/a/OtUqmEW" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/a/OtUqmEW.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Ensure that both VMs are in the same Vnet -check the topology with Network Watcher
 <p>
-<img src="https://imgur.com/a/OtUqmEW" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/a/OtUqmEW.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 
 Ensure Connectivity between the client and Domain Controller
 <p>
-<img src="https://imgur.com/a/OtUqmEW" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/a/OtUqmEW.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Login to Client-1 with Remote Desktop and ping DC-1’s private IP address with ping -t <ip address> (perpetual ping)
 <p>
-<img src="https://imgur.com/a/OtUqmEW" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/a/OtUqmEW.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 <p>
-<img src="https://imgur.com/a/OtUqmEW" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/a/OtUqmEW.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Login to the Domain Controller and enable ICMPv4 in on the local windows Firewall
