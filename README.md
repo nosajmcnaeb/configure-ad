@@ -67,15 +67,13 @@ Login to Client-1 with Remote Desktop and ping DC-1’s private IP address with 
 Login to the Domain Controller and enable ICMPv4 in on the local windows Firewall
 
 Check back at Client-1 to see the ping succeed
-
-Install Active Directory
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
-<p>
+Install Active Directory
 Login to DC-1 and install Active Directory Domain Services
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/FAYwnek.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Promote as a DC: Setup a new forest as mydomain.com (can be anything, just remember what it is)
@@ -159,6 +157,10 @@ Login to DC-1 as jane_admin
 Open PowerShell_ise as an administrator
 Create a new File and paste the contents of the script into it (https://github.com/joshmadakor1/AD_PS/blob/master/Generate-Names-Create-Users.ps1)
 Run the script and observe the accounts being created
+  <p>
+<img src="https://i.imgur.com/09xrrVm.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
 When finished, open ADUC and observe the accounts in the appropriate OU
 attempt to log into Client-1 with one of the accounts (take note of the password in the script)
 <p>
